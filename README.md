@@ -3,26 +3,6 @@
 ![React](https://img.shields.io/badge/React-18181b?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### Project Structure.
-
-Invoice-generator-webapp/
-├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── InvoiceForm.js
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
-
 
 This project is an Invoice Generator WebApp developed using React and TailwindCSS. The application allows users to add items, specify quantities, input prices, apply tax rates, and include discounts. Users can generate invoices and download them as PDFs, which can then be printed. The project utilizes [html-to-image](https://github.com/bubkoo/html-to-image) to capture data from the modal and convert it from canvas to PDF using [jsPDF](https://github.com/parallax/jsPDF).
 
